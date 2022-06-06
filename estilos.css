@@ -1,3 +1,8 @@
-body {
-    background-image: url('');
+.fondo {
+    background-image: url('/Recursos/fondo.jpg');
+    background-size: cover;
+    text-align: justify;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    
 }
