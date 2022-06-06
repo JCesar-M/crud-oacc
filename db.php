@@ -1,4 +1,6 @@
+
 <?php
+#Archivo de  conexion de la base de datos
 session_start();
 
 $conn = mysqli_connect(
