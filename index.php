@@ -1,7 +1,10 @@
 <?php include("db.php"); ?>
 
 <?php include('includes/header.php'); ?>
+
 <link rel="stylesheet" href="/estilos.css">
+
+
 <main class="container p-4 fondo">
   <div class="row">
     <div class="col-md-4">
