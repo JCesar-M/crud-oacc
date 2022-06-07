@@ -64,6 +64,7 @@
       </table>
     </div>
   </div>
+  <a button href="/Recursos/HASH.txt" type="button" class="btn btn-dark" download="hash">Hash</button> </a>
 </main>
 
 <?php include('includes/footer.php'); ?>
