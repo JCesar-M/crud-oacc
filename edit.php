@@ -21,7 +21,7 @@ if (isset($_POST['update'])) {
 
   $query = "UPDATE films set title = '$title', description = '$description' WHERE id=$id";
   mysqli_query($conn, $query);
-  $_SESSION['message'] = 'Películas actualizadas con éxito';
+  $_SESSION['message'] = 'Películas actualizadas con éxito!!!';
   $_SESSION['message_type'] = 'warning';
   header('Location: index.php');
 }
