@@ -10,8 +10,8 @@ if(isset($_GET['id'])) {
     die("Query Failed.");
   }
 
-  $_SESSION['message'] = 'Films Removed Successfully';
-  $_SESSION['message_type'] = 'danger';
+  $_SESSION['message'] = 'Pelicula eliminada Exitosamente !!!';
+  $_SESSION['message_type'] = 'CUIDADO !!!';
   header('Location: index.php');
 }
 
