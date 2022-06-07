@@ -2,10 +2,11 @@
 session_start();
 
 $conn = mysqli_connect(
-  'localhost',
+  '3.128.57.57',
   'root',
-  '',
-  'oacc_crud'
+  'A12345678',
+  'oacc_crud',
+  3306
 ) or die(mysqli_error($mysqli));
 
 ?>
