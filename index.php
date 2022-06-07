@@ -1,8 +1,8 @@
 <?php include("db.php"); ?>
 
 <?php include('includes/header.php'); ?>
-
-<main class="container p-4">
+<link rel="stylesheet" href="/estilos.css">
+<main class="container p-4 fondo">
   <div class="row">
     <div class="col-md-4">
       <!-- MESSAGES -->
@@ -30,7 +30,7 @@
       </div>
     </div>
     <div class="col-md-8">
-      <table class="table table-bordered">
+      <table class="table table-bordered tabla">
         <thead>
           <tr>
             <th>Título</th>

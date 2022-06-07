@@ -10,8 +10,13 @@ if(isset($_GET['id'])) {
     die("Query Failed.");
   }
 
+<<<<<<< HEAD
   $_SESSION['message'] = 'Películas eliminadas con éxito';
   $_SESSION['message_type'] = 'danger';
+=======
+  $_SESSION['message'] = 'Pelicula eliminada';
+  $_SESSION['message_type'] = 'CUIDADO !!!';
+>>>>>>> ErikGalindo
   header('Location: index.php');
 }
 
