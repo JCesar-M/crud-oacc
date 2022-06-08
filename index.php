@@ -20,6 +20,15 @@
       <?php session_unset(); } ?>
 
       <!-- ADD TASK FORM -->
+
+      <div class="card style="width: 18rem; ">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item"> <a button href="/Recursos/HASH.txt" type="button" class="btn btn-info" download="hash">Hash</button> </a></li>
+          <li class="list-group-item"> <a button href="/Recursos/HASH.txt" type="button" class="btn btn-info" download="Descargar">Descargar .zip</button> </a></li>
+          <li class="list-group-item"> <a href="https://github.com/JCesar-M/crud-oacc" class="link-warning">ENLACE DEL PROYECTO</a>       </li>
+        </ul>
+      </div>
+      
       <div class="card card-body">
         <form action="save_films.php" method="POST">
           <div class="form-group">
@@ -67,8 +76,8 @@
       </table>
     </div>
   </div>
-  <a button href="/Recursos/HASH.txt" type="button" class="btn btn-dark" download="hash">Hash</button> </a>
-  <a button href="/Recursos/HASH.txt" type="button" class="btn btn-dark" download="Descargar">Descargar .zip</button> </a>
+  
+
 </main>
 
 <?php include('includes/footer.php'); ?>

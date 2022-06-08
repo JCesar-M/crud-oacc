@@ -4,9 +4,7 @@
 
 include('db.php');
 
-
 if (isset($_POST['title'])) {
-    echo "Guardando";
   $title = $_POST['title'];
   $description = $_POST['description'];
 
@@ -20,9 +18,5 @@ if (isset($_POST['title'])) {
   $_SESSION['message_type'] = 'success';
 
   header('Location: index.php');
-
-}else{
-  echo "Rechazado";
 }
-
 ?>
