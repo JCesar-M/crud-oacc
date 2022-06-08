@@ -13,8 +13,9 @@ if (isset($_POST['title'])) {
     die("Query Failed.");
   }
 
-  $_SESSION['message'] = 'La pelicula se guardo Satisfactoriamente !!!';
-  $_SESSION['message_type'] = 'excelente';
+  $_SESSION['message'] = 'La pelicula se guardo Satisfactoriamente!!!';
+  $_SESSION['message_type'] = 'success';
+
   header('Location: index.php');
 
 }else{

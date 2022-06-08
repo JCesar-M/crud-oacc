@@ -2,7 +2,10 @@
 
 <?php include('includes/header.php'); ?>
 
-<main class="container p-4">
+<link rel="stylesheet" href="/estilos.css">
+
+
+<main class="container p-4 fondo">
   <div class="row">
     <div class="col-md-4">
       <!-- MESSAGES -->
@@ -30,7 +33,7 @@
       </div>
     </div>
     <div class="col-md-8">
-      <table class="table table-bordered">
+      <table class="table table-bordered tabla">
         <thead>
           <tr>
             <th>Título</th>
@@ -66,12 +69,13 @@
         </tbody>
       </table>
     </div>
-    
-    <div>
-	
-    </div>
-  
+<<<<<<< HEAD
+    <a href="https://github.com/JCesar-M/crud-oacc" class="link-warning">Enlace al proyecto</a>
 </div>
+=======
+  </div>
+  <a button href="/Recursos/HASH.txt" type="button" class="btn btn-dark" download="hash">Hash</button> </a>
+>>>>>>> 98acd90a21153b5bbcc07c26f14cfb4ba6c0d397
 </main>
 
 <?php include('includes/footer.php'); ?>

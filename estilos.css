@@ -1,0 +1,12 @@
+.fondo {
+    background-image: url('/Recursos/fondoDos.jpg');
+    background-size: cover;
+    text-align: justify;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    
+}
+
+.tabla {
+    color: white;
+}
