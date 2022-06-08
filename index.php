@@ -59,11 +59,19 @@
               </a>
             </td>
           </tr>
+	<div class="alert alert-primary" role="alert">
+            A simple primary alert—check it out!
+	</div>
           <?php } ?>
         </tbody>
       </table>
     </div>
-  </div>
+    
+    <div>
+	
+    </div>
+  
+</div>
 </main>
 
 <?php include('includes/footer.php'); ?>

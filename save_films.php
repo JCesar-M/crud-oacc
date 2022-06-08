@@ -4,7 +4,6 @@ include('db.php');
 
 
 if (isset($_POST['title'])) {
-    echo "Guardando";
   $title = $_POST['title'];
   $description = $_POST['description'];
 
