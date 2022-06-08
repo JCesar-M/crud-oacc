@@ -1,6 +1,8 @@
 # Proyecto Final de OACC
-## Integrantes
-## Erik Eduardo Galindo Rosales
-## Ismael García Hernández
-## Julio Cesar Morales Sierra
-## Juan Ortega Zambrano
+
+### Integrantes
+
+- Garcia Hernandez Ismael 
+- Galindo Rosales Erik Eduardo
+- Morales Sierra Julio Cesar
+- Ortega Zambrano Juan Jesus
